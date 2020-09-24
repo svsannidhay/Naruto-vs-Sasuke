@@ -4,10 +4,10 @@
 @media only screen and (max-width: 1200px){
     .mainNav li:last-child{margin-right:15px;}
     .row{width:100%;}
-    .mainText{padding:0 15px;}
+    .mainText{padding:0 20px;}
     .mainText h1{font-size:280%;}
     .mainText a{font-size:87%;}
-    .logo{margin-left:10px;}
+    .logo{margin-left:1px;}
 }
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SMALL TABLETS TO LARGE TABLETS -------768px to 1023px-------*/
