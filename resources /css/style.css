@@ -1,0 +1,77 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #fff;
+    color:#383838;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+}
+.row {
+    width:1140px;
+    margin: 0 auto;
+}
+/*--------------------*/
+/* HEADER SECTION */
+/*--------------------*/
+header {
+    background: linear-gradient(rgba(67, 66, 66, 0.5),rgba(64, 63, 63, 0.72)) , url(images/19348375180_0fcd697ebf_b.jpg);
+    background-size:cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.mainText{
+    width:1140px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.mainText h1{
+    color: #fff;
+    font-size:320%;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/*///////////////////////BUTTONS/////////////////////////////////*/
+.button {
+    color:#fff;
+    text-decoration: none;
+    padding:10px 40px;
+    display: inline-block;
+    margin-right:20px;
+    transition: background-color 0.4s, color 0.4s;
+}
+.buttonFull:link,
+.buttonFull:visited {
+    background-color: #bea146;
+    border: 2px solid #bea146;
+    border-radius: 100px;
+
+}
+.buttonFull:hover,
+.buttonFUll:active {
+    background-color: #aa8e36;
+}
+.buttonGhost:link,
+.buttonGhost:visited{
+    color:  #bea146;
+    border: 2px solid #bea146;
+    background-color:transparent;
+    border-radius: 100px;
+}
+.buttonGhost:hover,
+.buttonGhost:active {
+    background-color:  #aa8e36;  
+    color: #fff;
+}
+/*///////////////////////BUTTONS/////////////////////////////////*/
