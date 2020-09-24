@@ -20,7 +20,7 @@ html {
 /* HEADER SECTION */
 /*--------------------*/
 header {
-    background: linear-gradient(rgba(67, 66, 66, 0.5),rgba(64, 63, 63, 0.72)) , url(images/19348375180_0fcd697ebf_b.jpg);
+    background: linear-gradient(rgba(67, 66, 66, 0.5),rgba(64, 63, 63, 0.72)) , url(images/headerBackGroundImage.jpg);
     background-size:cover;
     background-position: top;
     background-attachment: fixed;
@@ -40,6 +40,17 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
+}
+/*///////////////////////NAVBAR//////////////////////////////////*/
+.logo {
+    display: inline-block;
+    padding:2px;
+    float:left;
+}
+.logo img{
+    display: inline-block;
+    margin-top:10px;
+    width:100px;
 }
 
 /*///////////////////////BUTTONS/////////////////////////////////*/
