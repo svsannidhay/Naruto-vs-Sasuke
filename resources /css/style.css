@@ -20,14 +20,13 @@ html {
 /* HEADER SECTION */
 /*--------------------*/
 header {
-    background: linear-gradient(rgba(67, 66, 66, 0.5),rgba(64, 63, 63, 0.72)) , url(images/headerBackGroundImage.jpg);
+    background: linear-gradient(rgba(70, 70, 70, 0.45),rgba(64, 63, 63, 0.6)) , url(images/headerBackGroundImage.jpg);
     background-size:cover;
     background-position: top;
     background-attachment: fixed;
     height: 100vh;
 }
 .mainText{
-    width:1140px;
     position: absolute;
     top:50%;
     left:50%;
@@ -36,23 +35,57 @@ header {
 .mainText h1{
     color: #fff;
     font-size:320%;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 /*///////////////////////NAVBAR//////////////////////////////////*/
 .logo {
     display: inline-block;
+    margin-top:25px;
     padding:2px;
     float:left;
 }
 .logo img{
     display: inline-block;
-    margin-top:10px;
     width:100px;
 }
-
+.mainNav{
+    margin-top:25px;
+    display: inline-block;
+    float:right;
+}
+.mainNav ul{
+    list-style: none;
+}
+.mainNav li{
+    display: inline-block;
+    margin-left:35px;
+    font-size:90%;
+}
+.mainNav li a:link,
+.mainNav li a:visited{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 0 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.4s;
+}
+.mainNav li a:hover,
+.mainNav li a:active {
+    border-bottom: 2px solid #bea146;
+}
 /*///////////////////////BUTTONS/////////////////////////////////*/
 .button {
     color:#fff;
