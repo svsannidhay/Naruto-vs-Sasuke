@@ -8,20 +8,37 @@
     .mainText h1{font-size:280%;}
     .mainText a{font-size:87%;}
     .logo{margin-left:1px;}
+    .greatestShinobi{margin:30px 0;}
+    .greatestShinobi h2{font-size:200%;}
+    .greatestShinobi h2:after{
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .longText{margin:10px 160px;}
+    .longText{font-size:90%;}
 }
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SMALL TABLETS TO LARGE TABLETS -------768px to 1023px-------*/
 /*//////////////////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 1023px){
     .mainText h1{font-size:240%;}
-    .mainText a{font-size:80%;}
+    .mainText a{font-size:85%;}
     .button{padding:10px 25px;}
+    .greatestShinobi h2{font-size:180%;}
+    .longText{margin:10px 30px;}
+    .longText{font-size:85%;}
 }
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------LARGE PHONES TO SMALL TABLETS ------- 481px to 767px-------*/
 /*//////////////////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 767px){
-    
+    .mainText h1{font-size:220%;}
+    .mainText a{font-size:82%;}
+    .button{padding:10px 25px;}
+    .greatestShinobi h2{font-size:140%;}
+    .longText{margin:10px 30px;}
+    .longText{font-size:82%;}
 }
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SMALL PHONES TO LARGE PHONES -------0 to 480px-------*/

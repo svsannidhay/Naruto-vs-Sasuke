@@ -10,15 +10,15 @@ html {
     font-size:20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    overflow: hidden;
+    overflow-x:hidden;
 }
 .row {
     width:1140px;
     margin: 0 auto;
 }
-/*--------------------*/
-/* HEADER SECTION */
-/*--------------------*/
+/*//////////////////////////////////////////////////////////////////////*/
+/*-----------------SECTION HEADER-------------------------------------- */
+/*//////////////////////////////////////////////////////////////////////*/
 header {
     background: linear-gradient(rgba(70, 70, 70, 0.45),rgba(64, 63, 63, 0.6)) , url(images/headerBackGroundImage.jpg);
     background-size:cover;
@@ -129,4 +129,31 @@ header {
     background-color:  #aa8e36;  
     color: #fff;
 }
-/*///////////////////////BUTTONS/////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////*/
+/*-----------------SECTION FINEST SHINOBI------------------------------ */
+/*//////////////////////////////////////////////////////////////////////*/
+.greatestShinobi {
+    margin:40px 0;
+}
+.greatestShinobi h2{
+    font-size:220%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin:20px auto;
+    text-align: center;
+}
+.greatestShinobi h2:after{
+    display: block;
+    width:1140px;
+    background-color: #bea146; 
+    content: "";
+    height:2px;
+    margin-top: 20px;
+}
+.longText{
+    font-size:100%;
+    margin:10px 205px;
+    text-align: justify;
+    justify-content: center;
+}
