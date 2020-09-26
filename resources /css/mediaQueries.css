@@ -28,6 +28,12 @@
     .greatestShinobi h2{font-size:180%;}
     .longText{margin:10px 30px;}
     .longText{font-size:85%;}
+    .shinobiDetails h3{font-size:90%;}
+    .shinobiDetails ul li {font-size:75%;}
+    .shinobiDetails h4{
+        font-size:70%;
+        font-weight: 400;
+    }
 }
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------LARGE PHONES TO SMALL TABLETS ------- 481px to 767px-------*/
@@ -39,6 +45,11 @@
     .greatestShinobi h2{font-size:140%;}
     .longText{margin:10px 30px;}
     .longText{font-size:82%;}
+    .col{width:100%;}
+    .shinobiBox{margin:10px 0;}
+    .shinobiBox:first-child{margin-top:20px;}
+    .shinobiBox:last-child{margin-bottom:20px};
+    .shinobiBox{padding: 0 20px;}
 }
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SMALL PHONES TO LARGE PHONES -------0 to 480px-------*/

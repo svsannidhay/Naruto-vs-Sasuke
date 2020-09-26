@@ -126,8 +126,7 @@ header {
 /*-----------------SECTION FINEST SHINOBI------------------------------ */
 /*//////////////////////////////////////////////////////////////////////*/
 .greatestShinobi {
-    padding: 30px 0;
-    background-color: #e3e3e2;
+    padding: 40px 0;
 }
 .greatestShinobi h2{
     font-size:220%;
@@ -140,7 +139,7 @@ header {
 .greatestShinobi h2:after{
     display: block;
     width:1140px;
-    background-color: #bea146; 
+    background-color: #bea146;
     content: "";
     height:2px;
     margin-top: 20px;
@@ -153,8 +152,6 @@ header {
     margin-bottom: 30px;
 }
 .shinobiBox{
-    padding:30px 15px;
-    background-color:#ebebeb;
     border-radius: 7px;
 }
 .shinobiImg{
