@@ -16,7 +16,14 @@ html {
     width:1200px;
     margin:0 auto;
 }
-
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SECTION HEADER-------------------------------------- */
 /*//////////////////////////////////////////////////////////////////////*/
@@ -58,9 +65,7 @@ header {
     display: inline-block;
     float:right;
 }
-.mainNav ul{
-    list-style: none;
-}
+.mainNav ul{list-style: none;}
 .mainNav li{
     display: inline-block;
     margin-left:35px;
@@ -104,7 +109,6 @@ header {
     background-color: #bea146;
     border: 2px solid #bea146;
     border-radius: 100px;
-
 }
 .buttonFull:hover,
 .buttonFUll:active {
@@ -125,9 +129,7 @@ header {
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SECTION FINEST SHINOBI------------------------------ */
 /*//////////////////////////////////////////////////////////////////////*/
-.greatestShinobi {
-    padding: 40px 0;
-}
+.greatestShinobi {padding: 40px 0;}
 .greatestShinobi h2{
     font-size:220%;
     font-weight: 300;
@@ -138,22 +140,19 @@ header {
 }
 .greatestShinobi h2:after{
     display: block;
-    width:1140px;
-    background-color: #bea146;
+    width:1200px;
+    background-color:   #bea146;
     content: "";
     height:2px;
     margin-top: 20px;
 }
 .longText{
     font-size:100%;
-    margin:10px 205px;
+    margin:30px 205px;
     text-align: justify;
     justify-content: center;
-    margin-bottom: 30px;
 }
-.shinobiBox{
-    border-radius: 7px;
-}
+.shinobiBox{border-radius: 7px;}
 .shinobiImg{
     margin:0;
     background-color: #000;
@@ -194,10 +193,66 @@ header {
     letter-spacing: 0.5px;
     text-align: left;
 }
-.shinobiDetails ul{
-    list-style: none;
-}
+.shinobiDetails ul{list-style: none;}
 .shinobiDetails ul li {
     font-size:85%;
     margin-top:5px;
+}
+/*//////////////////////////////////////////////////////////////////////*/
+/*-----------------SECTION QUOTES------------------------------ */
+/*//////////////////////////////////////////////////////////////////////*/
+.sectionQuotes{
+    background-image: linear-gradient(rgba(46, 46, 46, 0.7),rgba(46, 46, 46, 0.7)),
+        url(images/sasukeUchiha%20copy.png);
+    background-size: auto;
+    background-position: cover;
+    background-attachment: fixed;
+    color:#fff;
+}
+.sectionQuotes h2{
+    font-size:220%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin:30px auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.sectionQuotes h2:after{
+    display: block;
+    width:1200px;
+    background-color:   #bea146;
+    content: "";
+    height:2px;
+    margin-top: 20px;
+}
+.quoteBox {
+    padding:10px 10px 70px 10px;
+}
+.sectionQuotes blockquote:before {
+    content: "\201C";
+    display: block;
+    font-size:400%;
+    position:absolute;
+    left:-10%;
+    top:3%;
+}
+.sectionQuotes blockquote{
+    position: relative;
+    text-align: justify;
+    font-style:italic;
+    line-height:145%;
+}
+.sectionQuotes blockquote cite{
+    margin-top:20px;
+    display: block;
+    font-size:85%;
+}
+.sectionQuotes blockquote cite img{
+    width:44px;
+    height:auto;
+    margin-top:2px;
+    vertical-align: middle;
+    margin-right:15px;
+    border-radius:50%;
 }
