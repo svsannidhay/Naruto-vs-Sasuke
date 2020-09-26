@@ -3,12 +3,12 @@
 /*//////////////////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 1200px){
     .mainNav li:last-child{margin-right:15px;}
-    .row{width:100%;}
+    .row{width:98%;}
     .mainText{padding:0 20px;}
     .mainText h1{font-size:280%;}
     .mainText a{font-size:87%;}
     .logo{margin-left:1px;}
-    .greatestShinobi{margin:30px 0;}
+    .greatestShinobi{padding:30px 0;}
     .greatestShinobi h2{font-size:200%;}
     .greatestShinobi h2:after{
         width:80%;
