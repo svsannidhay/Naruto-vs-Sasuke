@@ -236,6 +236,7 @@ header {
     position:absolute;
     left:-10%;
     top:3%;
+    padding-left:5px;
 }
 .sectionQuotes blockquote{
     position: relative;
@@ -255,4 +256,74 @@ header {
     vertical-align: middle;
     margin-right:15px;
     border-radius:50%;
+}
+/*//////////////////////////////////////////////////////////////////////*/
+/*-----------------SECTION NATIONS------------------------------ */
+/*//////////////////////////////////////////////////////////////////////*/
+.sectionNations h2{
+    font-size:220%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin:30px auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.sectionNations h2:after{
+    display:block;
+    content:"";
+    background-color: #bea146;
+    width:1200px;
+    height:2px;
+    margin-top:20px;
+}
+.nations {
+    width:94%;
+    margin: 10px 3% 30px 3%;
+}
+.imageVillage {
+    background-color: #555;
+    overflow: hidden;
+}
+.imageVillage img{
+    width:100%;
+    height:auto;
+    opacity: 0.6;
+    margin-bottom: -3px;
+    transform: scale(1.23);
+    transition: opacity 0.5s,transform 0.5s;
+}
+.imageVillage img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
+.nationInfo h3{
+    font-size:110%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin:10px 0 15px 0;
+}   
+.nationInfo h3:after{
+    display: block;
+    content:"";
+    width:100%;
+    height:2px;
+    background-color: #bea146;
+}
+.nationInfo ion-icon{
+    vertical-align: middle;
+    color: #bea146;
+}
+.nationInfo ul{
+    list-style: none;
+}
+.nationInfo ul li{
+    margin-bottom: 5px;
+}
+.nationInfo ul li p{
+    display: inline-block;
+    font-size: 80%;
+    line-height: 140%;
 }

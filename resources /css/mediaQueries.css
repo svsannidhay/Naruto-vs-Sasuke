@@ -8,22 +8,20 @@
     .mainText h1{font-size:280%;}
     .mainText a{font-size:87%;}
     .logo{margin-left:1px;}
+    .nationInfo ul li p{font-size:85%;}
     .greatestShinobi{padding:30px 0;}
     .greatestShinobi h2{font-size:200%;}
-    .greatestShinobi h2:after{
-        width:80%;
-        margin-left:auto;
-        margin-right:auto;
-    }
     .sectionQuotes h2{font-size:200%;}
+    .sectionNations h2{font-size:200%;}
+    .longText{margin:10px 160px;}
+    .longText{font-size:90%;}
+    .greatestShinobi h2:after,
+    .sectionNations h2:after,
     .sectionQuotes h2:after{
         width:80%;
         margin-left:auto;
         margin-right:auto;
     }
-    
-    .longText{margin:10px 160px;}
-    .longText{font-size:90%;}
 }
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SMALL TABLETS TO LARGE TABLETS -------768px to 1023px-------*/
@@ -34,9 +32,12 @@
     .button{padding:10px 25px;}
     .greatestShinobi h2{font-size:180%;}
     .sectionQuotes h2{font-size:180%;}
+    .sectionNations h2{font-size:180%;}
     .longText{margin:20px 30px;}
     .longText{font-size:85%;}
     .shinobiDetails h3{font-size:90%;}
+    .sectionNations h3{font-size:90%;}
+    .nationInfo ul li p{font-size:80%;}
     .shinobiDetails ul li {font-size:75%;}
     .sectionQuotes blockquote cite{font-size:82%;}
     .sectionQuotes blockquote{font-size: 90%;}
@@ -62,6 +63,7 @@
     .shinobiBox:last-child{margin-bottom:20px};
     .shinobiBox{padding: 0 20px;}
     .quoteBox{padding-bottom: 40px;}
+    .nationBox{padding-bottom: 40px;}
     .sectionQuotes blockquote cite{font-size:80%;}
     .sectionQuotes blockquote{font-size: 85%;}
 }
