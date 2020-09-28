@@ -9,4 +9,12 @@ $(document).ready(function(){
     },{
         offset:'70px'
     });
+    
+    /*Scroll on navigations */
+    $('.js--scrollToGreatestShinobi').click(function(){
+        $('html,body').animate({scrollTop: $('.js--greatestShinobi').offset().top},1000);
+    });
+    $('.js--scrollToSectionNations').click(function(){
+        $('html,body').animate({scrollTop: $('.js--sectionNations').offset().top},1000);
+    })
 });

@@ -41,6 +41,11 @@
     .shinobiDetails ul li {font-size:75%;}
     .sectionQuotes blockquote cite{font-size:82%;}
     .sectionQuotes blockquote{font-size: 90%;}
+    .mainNav li a{font-size:87%;}
+    .sticky .mainNav li a{
+        font-size:87%;
+        padding: 16px 0 16px 0 !important;
+    }
     .shinobiDetails h4{
         font-size:70%;
         font-weight: 400;
