@@ -76,11 +76,11 @@
     .shinobiBox{padding: 0 20px;}
     .quoteBox{padding-bottom: 40px;}
     .nationBox{padding-bottom: 40px;}
+    .logo img{width:70px;}
     .sectionQuotes blockquote cite{font-size:80%;}
     .sectionQuotes blockquote{font-size: 85%;}
     .mainNav {display: none;}
     .mobileNavIcon {display: inline-block;}
-    
     .sticky .mobileNavIcon ion-icon {color: #555;}
     .sticky .mobileNavIconCross ion-icon {color: #555;}
     .mainNav{
@@ -105,6 +105,6 @@
 /*-----------------SMALL PHONES TO LARGE PHONES -------0 to 480px-------*/
 /*//////////////////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 480px){
-    
+    .logo img{width:55px;}
 }
 
