@@ -85,6 +85,35 @@ header {
 .mainNav li a:active {
     border-bottom: 2px solid #bea146;
 }
+/*Sticky nav*/
+.sticky{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: #efefef;
+    box-shadow: 0 2px 2px #adadad;
+    z-index: 9999;
+    opacity: 0.95;
+}
+.sticky .logo {
+    display: inline-block;
+    margin-top:3px;
+    padding:2px;
+    float:left;
+}
+.sticky .logo img{width:50px;}
+.sticky .mainNav{
+    margin-top:0;
+    padding: 16px 0 16px 0;
+}
+.sticky .mainNav li a:link,
+.sticky .mainNav li a:visited{
+    color: #383838;
+    padding: 15px 0 15px 0;
+}
+.sticky .mainNav li a:hover,
+.sticky .mainNav li a:active {border-bottom: 3px solid #bea146;}
 /*///////////////////////BUTTONS/////////////////////////////////*/
 .mainTextButtons{
     text-align: center;
