@@ -131,10 +131,10 @@ header {
 .sticky .mobileNavIconCross {
     margin-top:5px;
 }
-.show.mobileNavIconCross{display: inline-block !important;}
-.hide.mobileNavIconCross{display: none !important;}
-.show.mobileNavIcon{display: inline-block !important;}
-.hide.mobileNavIcon{display: none !important;}
+.show.mobileNavIconCross{display: inline-block;}
+.hide.mobileNavIconCross{display: none;}
+.show.mobileNavIcon{display: inline-block;}
+.hide.mobileNavIcon{display: none;}
 /*///////////////////////BUTTONS/////////////////////////////////*/
 .mainTextButtons{
     text-align: center;

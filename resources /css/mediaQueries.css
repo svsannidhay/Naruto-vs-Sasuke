@@ -54,6 +54,10 @@
 }
 @media only screen and (min-width: 768px){
     .mainNav {display: inline-block !important;}
+    .mobileNavIcon,
+    .mobileNavIconCross {
+        display: none !important;
+    }
 }
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------LARGE PHONES TO SMALL TABLETS ------- 481px to 767px-------*/
