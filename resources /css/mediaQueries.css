@@ -71,6 +71,29 @@
     .nationBox{padding-bottom: 40px;}
     .sectionQuotes blockquote cite{font-size:80%;}
     .sectionQuotes blockquote{font-size: 85%;}
+    .mainNav {display: none;}
+    .mobileNavIcon {display: inline-block;}
+    
+    .sticky .mobileNavIcon ion-icon {color: #555;}
+    .sticky .mobileNavIconCross ion-icon {color: #555;}
+    .mainNav{
+        float: left;
+        padding:0 !important;
+    }
+    .mainNav ul li{display: block;}
+    .mainNav ul li a:link,
+    .mainNav ul li a:visited{
+        display: block;
+        padding:10px 0 10px 0 !important;
+        border: 0;
+    }
+    .sticky .mainNav ul li a:link,
+    .sticky .mainNav ul li a:visited{
+        display: block;
+        padding:10px 0 10px 0 !important;
+        border: 0;
+    }
+    
 }
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SMALL PHONES TO LARGE PHONES -------0 to 480px-------*/

@@ -85,7 +85,7 @@ header {
 .mainNav li a:active {
     border-bottom: 2px solid #bea146;
 }
-/*Sticky nav*/
+/*Sticky navigation*/
 .sticky{
     position: fixed;
     top:0;
@@ -114,6 +114,27 @@ header {
 }
 .sticky .mainNav li a:hover,
 .sticky .mainNav li a:active {border-bottom: 3px solid #bea146;}
+/*Mobile navigation*/
+.mobileNavIcon,
+.mobileNavIconCross {
+    float: right;
+    margin-top:25px;
+    cursor: pointer;
+    display: none;
+}
+.mobileNavIcon ion-icon,
+.mobileNavIconCross ion-icon{
+    font-size:200%;
+    color: #fff;
+}
+.sticky .mobileNavIcon,
+.sticky .mobileNavIconCross {
+    margin-top:5px;
+}
+.show.mobileNavIconCross{display: inline-block !important;}
+.hide.mobileNavIconCross{display: none !important;}
+.show.mobileNavIcon{display: inline-block !important;}
+.hide.mobileNavIcon{display: none !important;}
 /*///////////////////////BUTTONS/////////////////////////////////*/
 .mainTextButtons{
     text-align: center;

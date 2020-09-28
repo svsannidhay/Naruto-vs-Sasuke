@@ -17,4 +17,17 @@ $(document).ready(function(){
     $('.js--scrollToSectionNations').click(function(){
         $('html,body').animate({scrollTop: $('.js--sectionNations').offset().top},1000);
     })
+    /*Mobile navigation*/
+    $('.js--navIcon').click(function(){
+        var nav = $('.js--mainNav'); 
+        nav.slideToggle(200);
+        $('.js--navIcon').addClass('hide');
+        $('.js--navIconCross').addClass('show');
+    });
+    $('.js--navIconCross').click(function(){
+        var nav = $('.js--mainNav'); 
+        nav.slideToggle(200);
+        $('.js--navIcon').removeClass('hide');
+        $('.js--navIconCross').removeClass('show');
+    });
 });
