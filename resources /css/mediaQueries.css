@@ -9,11 +9,11 @@
     .mainText a{font-size:87%;}
     .logo{margin-left:1px;}
     .nationInfo ul li p{font-size:85%;}
-    .greatestShinobi{padding:30px 0;}
+    .greatestShinobi{padding:45px 0;}
     .greatestShinobi h2{font-size:200%;}
     .sectionQuotes h2{font-size:200%;}
     .sectionNations h2{font-size:200%;}
-    .longText{margin:10px 160px;}
+    .longText{margin:30px 160px;}
     .longText{font-size:90%;}
     .greatestShinobi h2:after,
     .sectionNations h2:after,
@@ -33,7 +33,7 @@
     .greatestShinobi h2{font-size:180%;}
     .sectionQuotes h2{font-size:180%;}
     .sectionNations h2{font-size:180%;}
-    .longText{margin:20px 30px;}
+    .longText{margin:25px 30px;}
     .longText{font-size:85%;}
     .shinobiDetails h3{font-size:90%;}
     .sectionNations h3{font-size:90%;}

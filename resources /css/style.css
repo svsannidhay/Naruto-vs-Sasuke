@@ -179,7 +179,7 @@ header {
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SECTION FINEST SHINOBI------------------------------ */
 /*//////////////////////////////////////////////////////////////////////*/
-.greatestShinobi {padding: 40px 0;}
+.greatestShinobi {padding: 50px 0;}
 .greatestShinobi h2{
     font-size:220%;
     font-weight: 300;
@@ -198,11 +198,14 @@ header {
 }
 .longText{
     font-size:100%;
-    margin:30px 205px;
+    margin:35px 205px;
     text-align: justify;
     justify-content: center;
 }
-.shinobiBox{border-radius: 7px;}
+.shinobiBox{
+    border-radius: 7px;
+    padding:0 10px;
+}
 .shinobiImg{
     margin:0;
     background-color: #000;
@@ -376,4 +379,31 @@ header {
     display: inline-block;
     font-size: 80%;
     line-height: 140%;
+}
+footer{
+    background: #333333;
+    background-size:auto;
+    background-position: top;
+    background-attachment: fixed;
+}
+.footerNav{
+    float:left;
+}
+.footerSocial {
+    float:right;
+}
+.footerNav ul,
+.footerSocial ul,{
+    padding:10px 0; 
+    list-style: none;
+}
+.footerNav ul li,
+.footerSocial ul li{
+    display: inline-block;
+}
+.footerNav ul li a,
+.footerSocial ul li a{
+    color: #bea146;
+    text-decoration: none;
+    padding:10px;
 }
