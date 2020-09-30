@@ -42,6 +42,10 @@
     .sectionQuotes blockquote cite{font-size:82%;}
     .sectionQuotes blockquote{font-size: 90%;}
     .mainNav li a{font-size:87%;}
+    .footerNav  li a{
+        font-size:85%;
+        padding:10px 5px!important;
+    }
     .sticky .mainNav li a{
         font-size:87%;
         padding: 16px 0 16px 0 !important;
@@ -83,6 +87,19 @@
     .mobileNavIcon {display: inline-block;}
     .sticky .mobileNavIcon ion-icon {color: #555;}
     .sticky .mobileNavIconCross ion-icon {color: #555;}
+    .footerBox ul li a{
+        font-size:90%;
+        padding:10px!important;
+    }
+    .footerBox ul{padding:7px 0; }
+    .footerNav{
+        text-align: center;
+        float:none;
+    }
+    .footerSocial {
+        text-align: center;
+        float:none;
+    }
     .mainNav{
         float: left;
         padding:0 !important;

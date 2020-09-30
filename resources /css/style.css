@@ -380,6 +380,9 @@ header {
     font-size: 80%;
     line-height: 140%;
 }
+/*//////////////////////////////////////////////////////////////////////*/
+/*-----------------SECTION FOOTER------------------------------ */
+/*//////////////////////////////////////////////////////////////////////*/
 footer{
     background: #333333;
     background-size:auto;
@@ -392,18 +395,30 @@ footer{
 .footerSocial {
     float:right;
 }
-.footerNav ul,
-.footerSocial ul,{
+.footerBox ul{
     padding:10px 0; 
     list-style: none;
 }
-.footerNav ul li,
-.footerSocial ul li{
+.footerBox ul li{
     display: inline-block;
 }
-.footerNav ul li a,
-.footerSocial ul li a{
+.footerBox ul li a:link,
+.footerBox ul li a:visited{
     color: #bea146;
     text-decoration: none;
     padding:10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s,color 0.5s;
+}
+.footerBox ul li a:hover,
+.footerBox ul li a:active{
+    color: #aa8e36;
+    border-bottom: 2px solid #aa8e36;
+}
+.copyRight{
+    font-size:75%;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:20px;
+    color:#838383;
 }
