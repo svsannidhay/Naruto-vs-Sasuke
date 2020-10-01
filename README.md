@@ -13,5 +13,6 @@
 > Triggering for mobile nav bar is done by using **CSS MediaQueries.**<br>
 
 ## Latest Deployment 
-Deployment :- <a href="https://svsannidhay.github.io/Naruto-vs-Sasuke/" target = "_blank" >NARUTO-VS-SASUKE</a>
+Deployment :- <a href="https://svsannidhay.github.io/Naruto-vs-Sasuke/" target = "_blank" >**NARUTO-VS-SASUKE**</a>
+## Display:
 ![alt text](https://github.com/svsannidhay/Naruto-vs-Sasuke/blob/master/resources%20/imagesScreenShots/FireShot%20Capture%20022%20-%20Naruto%20vs%20Sasuke%20-%20svsannidhay.github.io.png)
