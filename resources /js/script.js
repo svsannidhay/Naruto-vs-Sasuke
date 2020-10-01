@@ -1,5 +1,7 @@
 $(document).ready(function(){
-   /*For sticky navigation bar*/
+    /*------------------------------*/
+    /*-------Sticky navigation------*/
+    /*------------------------------*/
     $('.js--greatestShinobi').waypoint(function(direction){
         if(direction == 'down'){
             $('nav').addClass('sticky');
@@ -9,15 +11,9 @@ $(document).ready(function(){
     },{
         offset:'70px'
     });
-    
-    /*Scroll on navigations */
-    $('.js--scrollToGreatestShinobi').click(function(){
-        $('html,body').animate({scrollTop: $('.js--greatestShinobi').offset().top},1000);
-    });
-    $('.js--scrollToSectionNations').click(function(){
-        $('html,body').animate({scrollTop: $('.js--sectionNations').offset().top},1000);
-    })
-    /*Mobile navigation*/
+    /*------------------------------*/
+    /*-------Mobile navigation------*/
+    /*------------------------------*/
     $('.js--navIcon').click(function(){
         var nav = $('.js--mainNav'); 
         nav.slideToggle(200);
@@ -30,4 +26,40 @@ $(document).ready(function(){
         $('.js--navIcon').removeClass('hide');
         $('.js--navIconCross').removeClass('show');
     });
+    /*------------------------------*/
+    /*-----Scroll on  navigation----*/
+    /*------------------------------*/
+    $('.js--scrollToGreatestShinobi').click(function(){
+        $('html,body').animate({scrollTop: $('.js--greatestShinobi').offset().top},1000);
+    });
+    $('.js--scrollToSectionNations').click(function(){
+        $('html,body').animate({scrollTop: $('.js--sectionNations').offset().top},1000);
+    })
+    /*------------------------------*/
+    /*---Animation Greatest shinobi----*/
+    /*------------------------------*/
+    $('.js--wayPoint-0').waypoint(function(direction){
+       if(direction == 'up'){
+           $('.js--wayPoint-1').removeClass('animate__animated animate__fadeIn');
+       }else{
+           $('.js--wayPoint-1').addClass('animate__animated animate__fadeIn');
+       }
+    },{
+        offset:'50%'
+    });
+    $('.js--wayPoint-1').waypoint(function(direction){
+        $('.js--wayPoint-1').addClass('animate__animated animate__fadeIn');
+    },{
+        offset:'50%'
+    });
+    $('.js--wayPoint-2').waypoint(function(direction){
+       if(direction == 'down'){
+           $('.js--wayPoint-1').removeClass('animate__animated animate__fadeIn');
+       }else{
+           $('.js--wayPoint-1').addClass('animate__animated animate__fadeIn');
+       }
+    },{
+        offset:'50%'
+    });
+                                
 });
