@@ -218,11 +218,11 @@ header {
     height:auto;
     margin-bottom: -3px;
     transform:scale(1.15);
-    transition: opacity 0.5s,transform 0.5s;
+    transition: opacity 0.5s,transform 0.5s!important;
 }
 .shinobiBox img:hover{
-    opacity: 1;
-    transform:scale(1.03);
+    opacity: 1!important;
+    transform:scale(1.03)!important;
 }
 .shinobiDetails h3{
     font-size:110%;
@@ -429,10 +429,12 @@ footer{
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------ANIMATIONS------------------------------ */
 /*//////////////////////////////////////////////////////////////////////*/
-.js--wayPoint-1{
+.js--wayPoint-1,
+.js--wayPoint-3,{
     opacity: 0;
-    animation-duration: 5s;
+/*    animation-duration: 5s;*/
 }
-.js--wayPoint-1.animate__animated{
+.js--wayPoint-1.animate__animated,
+.js--wayPoint-3.animate__animated{
     opacity: 1;
 }
