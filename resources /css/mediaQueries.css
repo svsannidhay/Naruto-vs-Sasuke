@@ -13,11 +13,14 @@
     .greatestShinobi h2{font-size:200%;}
     .sectionQuotes h2{font-size:200%;}
     .sectionNations h2{font-size:200%;}
+    .sectionKonoha h2{font-size:200%;}
+    .sectionKonoha .textr p{padding-right:15px;}
     .longText{margin:30px 160px;}
     .longText{font-size:90%;}
     .greatestShinobi h2:after,
     .sectionNations h2:after,
-    .sectionQuotes h2:after{
+    .sectionQuotes h2:after,
+    .sectionKonoha h2:after{
         width:80%;
         margin-left:auto;
         margin-right:auto;
@@ -87,6 +90,11 @@
     .mobileNavIcon {display: inline-block;}
     .sticky .mobileNavIcon ion-icon {color: #555;}
     .sticky .mobileNavIconCross ion-icon {color: #555;}
+    .sectionKonoha .konohaBox{margin:25px 0;}
+    .sectionKonoha .textr{
+        font-size:88%;
+        padding:0 20px;
+    }
     .footerBox ul li a{
         font-size:90%;
         padding:10px!important;
