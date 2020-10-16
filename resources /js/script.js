@@ -96,6 +96,6 @@ $(document).ready(function(){
             $('.js--wayPoint-3').addClass('animate__animated animate__pulse');
         }
     },{
-        offset:'35%'
+        offset:'30%'
     });
 });
