@@ -384,6 +384,92 @@ header {
     line-height: 140%;
 }
 /*//////////////////////////////////////////////////////////////////////*/
+/*-----------------SECTION KONOHA------------------------------ */
+/*//////////////////////////////////////////////////////////////////////*/
+.sectionKonoha{
+    background-color: #d8d8d8;
+    padding-bottom: 30px;
+}
+.sectionKonoha .customRow{
+    width:85%;
+    margin: 0 auto;
+}
+.sectionKonoha h2{
+    font-size:220%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin:20px auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.sectionKonoha h2:after{
+    display: block;
+    content: " ";
+    background-color: #bea146;
+    width:1200px;
+    height:2px;
+    margin-top:20px;
+}
+.sectionKonoha .textr p{
+    font-size: 85%;
+    line-height: 140%;
+    text-align: justify;
+}
+.sectionKonoha .heading{
+    padding: 2px 0;
+    background-color: #959595;
+    text-align: center;
+    font-weight: 400;
+    font-size: 85%;
+}
+.sectionKonoha .r{
+    border-bottom: 1px solid #555;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+}
+.sectionKonoha .r:first-of-type{
+    border-top: 1px solid #555;
+}
+.sectionKonoha .vlgImg{
+    overflow: hidden;
+    background-color: #030303;
+}
+.sectionKonoha .vlgImg img{
+    width:100%;
+    height:250px;
+    opacity: 0.7;
+    transform: scale(1.23);
+    transition: opacity 0.5s ,transform 0.5s;
+}
+.sectionKonoha .vlgImg img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
+.sectionKonoha .customRow .text {
+    font-size: 70%;
+    font-weight: 400;
+    background-color: #dbdbdb;
+}
+.sectionKonoha .text div{
+    display: inline-block;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+.sectionKonoha .logoInTable img{
+    width:14px;
+    height:14px;
+}
+#kanji{
+    font-size: 73%;
+    vertical-align: middle;
+}
+.sectionKonoha .text div:first-child{
+    width:150px;
+    border-right:1px solid #555;
+    background-color: #bababa
+}
+/*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SECTION FOOTER------------------------------ */
 /*//////////////////////////////////////////////////////////////////////*/
 footer{
@@ -424,34 +510,6 @@ footer{
     padding-top:10px;
     padding-bottom:20px;
     color:#838383;
-}
-/*//////////////////////////////////////////////////////////////////////*/
-/*-----------------SECTION KONOHA------------------------------ */
-/*//////////////////////////////////////////////////////////////////////*/
-.sectionKonoha{
-    background-color: #d8d8d8;
-}
-.sectionKonoha h2{
-    font-size:220%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin:20px auto;
-    padding-top: 20px;
-    text-align: center;
-}
-.sectionKonoha h2:after{
-    display: block;
-    content: " ";
-    background-color: #bea146;
-    width:1200px;
-    height:2px;
-    margin-top:20px;
-}
-.sectionKonoha .text p{
-    font-size: 80%;
-    line-height: 140%;
-    text-align: justify;
 }
 
 /*//////////////////////////////////////////////////////////////////////*/
