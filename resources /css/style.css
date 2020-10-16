@@ -315,7 +315,6 @@ header {
 /*//////////////////////////////////////////////////////////////////////*/
 .sectionNations {
     padding-top:20px;
-    padding-bottom: 40px;
 }
 .sectionNations h2{
     font-size:220%;
@@ -427,12 +426,40 @@ footer{
     color:#838383;
 }
 /*//////////////////////////////////////////////////////////////////////*/
+/*-----------------SECTION KONOHA------------------------------ */
+/*//////////////////////////////////////////////////////////////////////*/
+.sectionKonoha{
+    background-color: #d8d8d8;
+}
+.sectionKonoha h2{
+    font-size:220%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin:20px auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.sectionKonoha h2:after{
+    display: block;
+    content: " ";
+    background-color: #bea146;
+    width:1200px;
+    height:2px;
+    margin-top:20px;
+}
+.sectionKonoha .text p{
+    font-size: 80%;
+    line-height: 140%;
+    text-align: justify;
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
 /*-----------------ANIMATIONS------------------------------ */
 /*//////////////////////////////////////////////////////////////////////*/
 .js--wayPoint-1,
 .js--wayPoint-3,{
     opacity: 0;
-/*    animation-duration: 5s;*/
 }
 .js--wayPoint-1.animate__animated,
 .js--wayPoint-3.animate__animated{
