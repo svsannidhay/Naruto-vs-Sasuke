@@ -68,7 +68,7 @@ $(document).ready(function(){
         offset:'40%'
     });
     /*------------------------------------*/
-    /*--Animation F aive Great Nations----*/
+    /*--Animation Five Great Nations----*/
     /*------------------------------------*/
     $('.js--wayPoint-2').waypoint(function(direction){
        if(direction == 'up'){
@@ -86,5 +86,16 @@ $(document).ready(function(){
         $('.js--wayPoint-3').addClass('animate__animated animate__pulse');
     },{
         offset:'60%'
+    });
+    $('.js--wayPoint-4').waypoint(function(direction){
+        if(direction == 'down'){
+            $('.js--wayPoint-3').removeClass('animate__animated animate__fadeIn');
+            $('.js--wayPoint-3').removeClass('animate__animated animate__pulse');
+        }else{
+            $('.js--wayPoint-3').addClass('animate__animated animate__fadeIn');
+            $('.js--wayPoint-3').addClass('animate__animated animate__pulse');
+        }
+    },{
+        offset:'35%'
     });
 });

@@ -387,8 +387,9 @@ header {
 /*-----------------SECTION KONOHA------------------------------ */
 /*//////////////////////////////////////////////////////////////////////*/
 .sectionKonoha{
-    background-color: #d8d8d8;
-    padding-bottom: 30px;
+    background-color: #dddddd;
+    padding-bottom: 60px;
+    padding-top:20px;
 }
 .sectionKonoha .customRow{
     width:85%;
