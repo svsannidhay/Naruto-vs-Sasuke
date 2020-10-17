@@ -3,6 +3,11 @@
     padding:0;
     box-sizing: border-box;
 }
+/*
+body{
+    padding:30px;
+}
+*/
 html {
     background-color: #fff;
     color:#383838;
@@ -32,7 +37,10 @@ header {
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
+    height: 95vh;
+}
+.clipIt{
+    clip-path: polygon(0 0,100% 0,100% 80vh,0 100%);   
 }
 .mainText{
     position: absolute;
@@ -144,6 +152,7 @@ header {
     margin-left:25px;
 }
 .buttonSasuke{
+    
     float:right;
     margin-right: 25px;
 }
@@ -156,25 +165,88 @@ header {
 }
 .buttonFull:link,
 .buttonFull:visited {
+    position: relative;
     background-color: #bea146;
     border: 2px solid #bea146;
     border-radius: 100px;
+    transition: transform 0.2s;
+    animation-name: moveInBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.4s;
+    animation-fill-mode: backwards;
 }
-.buttonFull:hover,
-.buttonFUll:active {
+.buttonFull:hover{
     background-color: #aa8e36;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.buttonFull:active{
+    background-color: #aa8e36;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.buttonFull::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width:  100%;
+    border-radius: 100px;
+    background-color: #bea146;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    transition: transform 0.4s,opacity 0.4s;
+}
+.buttonFull:hover::after{
+    transform: scaleX(1.4) scaleY(1.7);
+    opacity: 0;
 }
 .buttonGhost:link,
 .buttonGhost:visited{
+    position: relative;
     color:  #bea146;
     border: 2px solid #bea146;
     background-color:transparent;
     border-radius: 100px;
+    transition: transform 0.2s;
+    animation-name: moveInBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.4s;
+    animation-fill-mode: backwards;
 }
-.buttonGhost:hover,
+.buttonGhost:hover{
+    background-color:  #aa8e36;  
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+}
 .buttonGhost:active {
     background-color:  #aa8e36;  
     color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+}
+.buttonGhost::after{
+    content:"";
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #bea146;
+    background-color:transparent;
+    border-radius: 100px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    transition: transform 0.4s ,opacity 0.4s;
+}
+.buttonGhost:hover::after{
+    transform: scaleX(1.4) scaleY(1.7);
+    opacity: 0;
 }
 /*//////////////////////////////////////////////////////////////////////*/
 /*-----------------SECTION FINEST SHINOBI------------------------------ */
@@ -523,4 +595,14 @@ footer{
 .js--wayPoint-1.animate__animated,
 .js--wayPoint-3.animate__animated{
     opacity: 1;
+}
+@keyframes moveInBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

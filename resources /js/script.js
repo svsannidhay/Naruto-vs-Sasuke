@@ -5,8 +5,10 @@ $(document).ready(function(){
     $('.js--greatestShinobi').waypoint(function(direction){
         if(direction == 'down'){
             $('nav').addClass('sticky');
+            $('header').removeClass('clipIt');
         }else{
             $('nav').removeClass('sticky');
+            $('header').addClass('clipIt');
         }
     },{
         offset:'70px'
