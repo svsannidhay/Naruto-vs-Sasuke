@@ -3,7 +3,7 @@
 > A static website build using **HTML5,CSS3** and **jQuery.**<br>
 > For responsive design i used **responsive grid layout** for sections and **float layout** for headers and footers.<br>
 > Both the layouts used are desgined to adjust at particular screen width using **css mediaQueries.**<br>
-> For animations i have used animate.css and **waypoints Js Library** for triggering those animations.<br>
+> For animations i have used animate.css and keyframes and **waypoints Js Library** for triggering those animations.<br>
 
 ## NAVIGATION BAR
 > There are in total three different nav bars each triggered under adequate conditions.<br>
